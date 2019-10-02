@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/payid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="ID."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/razori_payid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="Razori Payment ID."
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/razori_paid_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text="Payment Price"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pack_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="Razori Payment ID."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/P_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text="Pack Name"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pack_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text="pack Price"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text=" "
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text=" "
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="25"
+            android:background="@drawable/framehistory"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/trainer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|center"
+                android:lines="3"
+                android:singleLine="false"
+                android:text=" "
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!--    <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_alignTop="@+id/LL"
+                android:layout_weight="25"
+                android:background="@drawable/framehistory"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/minus_bal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_vertical|center"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text="Price Minus From Virtual Money"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="25"
+                android:background="@drawable/framehistory"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/cashback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_vertical|center"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text="CashBack"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="25"
+                android:background="@drawable/framehistory"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/ref_earn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_vertical|center"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text="Ref Earning"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="25"
+                android:background="@drawable/framehistory"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/vrtu_bal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_vertical|center"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text="Present Virtual Balance"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+           -->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

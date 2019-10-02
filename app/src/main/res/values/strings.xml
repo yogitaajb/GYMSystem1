@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gym DHC</string>
+
+    <string name="section_format">Section : %1$d</string>
+
+    <string name="version_unknown">Unknown</string>
+    <string name="app_version">Version</string>
+
+    <string name="backbutton">Are you sure,want to Exit from App?</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+</resources>
